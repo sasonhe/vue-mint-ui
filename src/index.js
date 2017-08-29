@@ -4,7 +4,9 @@ import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 import App from './App.vue'
 import routes from './router.config'
-
+// import Mint from 'mint-ui'
+// import 'mint-ui/lib/style.css'
+// Vue.use(Mint)
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
