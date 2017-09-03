@@ -1,16 +1,14 @@
 <template>
 <div>
-    <!-- <hello></hello> -->
-    <exmple></exmple>
+    <hello></hello>
 </div>
 </template>
 <script>
-// import hello from './components/hello.vue'
-import exmple from './components/exmple.vue'
+import hello from './components/hello.vue'
+
 export default{
     components:{
-        // hello,
-        exmple
+        hello
     }
 }
 </script>
