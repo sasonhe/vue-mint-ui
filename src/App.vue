@@ -1,14 +1,14 @@
 <template>
 <div>
-    <hello></hello>
+    <v-header></v-header>
 </div>
 </template>
 <script>
-import hello from './components/hello.vue'
+import header from './components/header.vue'
 
 export default{
     components:{
-        hello
+        'v-header':header
     }
 }
 </script>
