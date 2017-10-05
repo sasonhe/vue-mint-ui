@@ -1,6 +1,6 @@
 <template>
 <div class="">
-    <mt-header title="long long long long title">
+    <mt-header title="首页">
       <router-link to="/" slot="left">
         <mt-button icon="back">返回</mt-button>
       </router-link>
