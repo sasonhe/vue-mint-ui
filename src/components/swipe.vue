@@ -30,10 +30,10 @@
     line-height: 100px;
 }
 .ban1{
-    background: yellow;
+    background: #555;
 }
 .ban2{
-    background: red;
+    background: #999;
 }
 .ban3{
     background: #ccc;
