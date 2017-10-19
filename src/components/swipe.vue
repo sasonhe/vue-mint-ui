@@ -1,7 +1,7 @@
 <template>
 <div class="">
     <mt-swipe :auto="4000" class="wrap">
-        <mt-swipe-item class="ban1" v-for="item in imgData"><img :src="item.imgUrl" alt=""></mt-swipe-item>
+        <mt-swipe-item class="ban1" v-for="item in imgData" :key="item.id"><img :src="item.imgUrl" alt=""></mt-swipe-item>
 
     </mt-swipe>
 </div>
@@ -33,24 +33,6 @@ export default {
     height: 100px;
     text-align: center;
 }
-
-
-/*.ban1,.ban2,.ban3{
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
-}*/
-
-
-/*.ban1{
-    background: #555;
-}
-.ban2{
-    background: #999;
-}
-.ban3{
-    background: #ccc;
-}*/
 
 img {
     width: 100%;
